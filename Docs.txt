@@ -1,0 +1,14 @@
+apply_filters ignet_taxonomy_capabilities
+Права при регистрации таксономий
+
+apply_filters ignet_filter_post_get_query_object
+Типы постов при фильтрации
+
+apply_filters ignet_filter_post_get_query_tax
+Таксономии при фильтрации
+
+apply_filters ignet_filter_post_get_query_meta
+Метаполя при фильтрации
+
+apply_filters ignet_с_fields_pre_save_metadata
+Перед сохранением метаданных

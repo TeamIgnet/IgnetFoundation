@@ -1,0 +1,94 @@
+/*
+Стили для оформления блоков дополнительных полей в админке
+*/
+.before{
+	display:block;
+}
+
+.extra_field_checkbox .before{
+	display: inherit;
+}
+
+.extra_field_box {
+	float:left;
+	margin-left: 15px;
+	margin-bottom: 10px;
+}
+
+.extra_field_select2{
+	float: none;
+	height: inherit;
+	clear: both;
+}
+
+.extra_field_file{
+	width: 90%;
+	border: 1px solid #E5E5E5;
+}
+
+.extra_field_textarea_wp_editor{
+	float: none;
+	clear: both;
+}
+
+.clear{
+	float:none;
+	clear:both;
+	margin:0;
+	padding:0;
+}
+
+.inside hr{
+float: none;
+  clear: both;
+}
+
+.extra_field_text_clone div.more_input_div {
+	text-align:center;
+	padding-top:10px;
+}
+
+.extra_field_text_clone div.input_div {
+    position: relative;
+}
+
+.delete_input{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    position: absolute;
+    right: 2px;
+    top: 5px;
+}
+.delete_input:before{
+    font: 400 20px/1 dashicons;
+    speak: none;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-decoration: none!important;
+    content: '\f153';
+	color:#D0D2D5;
+}
+.delete_input:hover:before{
+    color:#A0A5AA;
+}
+/************** Кастомные стили **************************/
+
+.erostock_hours, .erostock_days, .erostock_months{
+	float: left;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #e5e5e5;
+}
+
+.erostock_hours .extra_field_box,
+.erostock_days .extra_field_box,
+.erostock_months .extra_field_box{
+    float: none;
+}
+
+.date_def_str {
+    margin-left: 15px;
+    font-size: 15px;
+}
